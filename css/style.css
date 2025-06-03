@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-family: "Fira_Sans_Condensed";
 }
-p {
+p,
+li {
   font-family: "Yantramanav";
 }
