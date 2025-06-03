@@ -1,0 +1,24 @@
+:root {
+  background-color: rgba(242, 240, 233, 1);
+}
+@font-face {
+  font-family: "Anton";
+  src: url(../fonts/Anton-Regular.ttf);
+}
+@font-face {
+  font-family: "Fira_Sans_Condensed";
+  src: url(../fonts/FiraSansCondensed-Light.ttf);
+}
+@font-face {
+  font-family: "Yantramanav";
+  src: url(../fonts/Yantramanav-Thin.ttf);
+}
+h1 {
+  font-family: "Anton";
+}
+h2 {
+  font-family: "Fira_Sans_Condensed";
+}
+p {
+  font-family: "Yantramanav";
+}
