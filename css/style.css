@@ -30,6 +30,9 @@ li {
   color: rgba(242, 240, 233, 1);
   text-align: center;
 }
+.herosektion_h1 {
+  font-size: 150px;
+}
 
 /* hover på billeder */
 .hover_billede {
