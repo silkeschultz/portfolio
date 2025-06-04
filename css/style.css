@@ -1,3 +1,4 @@
+/* Generelt CSS */
 :root {
   background-color: rgba(242, 240, 233, 1);
 }
@@ -15,6 +16,7 @@
 }
 h1 {
   font-family: "Anton";
+  font-size: 50px;
 }
 h2 {
   font-family: "Fira_Sans_Condensed";
@@ -22,6 +24,13 @@ h2 {
 p,
 li {
   font-family: "Yantramanav";
+}
+.hjemmeside_link a {
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+  font-family: "Yantramanav";
+  font-weight: bold;
 }
 .mine_projekter {
   background-color: rgba(90, 126, 85, 1);
@@ -32,6 +41,7 @@ li {
 }
 .herosektion_h1 {
   font-size: 150px;
+  text-align: center;
 }
 
 /* hover på billeder */
