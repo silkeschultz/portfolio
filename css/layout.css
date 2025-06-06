@@ -12,6 +12,27 @@ p {
   line-height: 2;
   margin-bottom: 1.75em;
 }
+/* cirkler med erfaringer */
+
+.icon_cirkel {
+  background-color: rgba(90, 126, 85, 1);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 16px;
+}
+
+.icon_cirkel img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+
 @media (min-width: 800px) {
   .T2,
   .T3,
@@ -34,5 +55,35 @@ p {
     height: 700px;
     margin: 0 auto;
     /* display: block; */
+  }
+  .grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .tema_billeder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5px;
+  }
+  #billede1 {
+    width: 400px;
+    height: 400px;
+    grid-column: 1/1;
+  }
+  #billede2 {
+    width: 400px;
+    height: 400px;
+    grid-column: 2/2;
+  }
+  #billede3 {
+    width: 400px;
+    height: 400px;
+    grid-column: 3/3;
   }
 }
