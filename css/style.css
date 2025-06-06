@@ -32,7 +32,8 @@ li {
   font-family: "Yantramanav";
   font-weight: bold;
 }
-.mine_projekter {
+.mine_projekter,
+.om_mig_billede {
   background-color: rgba(90, 126, 85, 1);
 }
 .projekter_h1 {
