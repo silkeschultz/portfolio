@@ -37,7 +37,8 @@ li {
 .tema_billeder {
   background-color: rgba(90, 126, 85, 1);
 }
-.projekter_h1 {
+.projekter_h1,
+.kontakt_cirkel {
   color: rgba(242, 240, 233, 1);
   text-align: center;
 }
