@@ -25,7 +25,8 @@ p,
 li {
   font-family: "Yantramanav";
 }
-.hjemmeside_link a {
+.hjemmeside_link a,
+.footer_indhold a {
   color: black;
   text-decoration: none;
   text-decoration: underline;
@@ -42,10 +43,10 @@ li {
   color: rgba(242, 240, 233, 1);
   text-align: center;
 }
-.herosektion_h1 {
-  font-size: 150px;
-  text-align: center;
+.projekter_h1 {
+  font-size: 30px;
 }
+
 .erfaringer_h1 {
   text-align: center;
 }
@@ -67,4 +68,40 @@ li {
 .hover_billede:hover {
   filter: grayscale(0%);
   z-index: 0;
+}
+
+/* tekst på billeder forside */
+.T2_billede,
+.T3_billede,
+.T4_billede,
+.T5_billede {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.T2_billede img,
+.T3_billede img,
+.T4_billede img,
+.T5_billede img {
+  width: 100%;
+}
+.T2_billede .text,
+.T3_billede .text,
+.T4_billede .text,
+.T5_billede .text {
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+  text-align: center;
+  transform: translate(-50%, -50%); /* placere teksten præcis i midten */
+  pointer-events: none; /* gør at linket ikke blinker når man har musen over */
+}
+
+@media (min-width: 900px) {
+  .projekter_h1 {
+    font-size: 50px;
+  }
 }

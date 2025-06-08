@@ -12,6 +12,7 @@ p {
   line-height: 2;
   margin-bottom: 1.75em;
 }
+
 /* cirkler med erfaringer */
 .icon_cirkel {
   background-color: rgba(90, 126, 85, 1);
@@ -31,12 +32,13 @@ p {
   height: auto;
   object-fit: contain;
 }
+
 /* cirkel til kontakt */
 .kontakt_cirkel {
   background-color: rgba(90, 126, 85, 1);
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +51,39 @@ p {
   height: auto;
   object-fit: contain;
 }
-
+.arrow {
+  margin-left: 1em;
+  position: relative;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+.arrow_img {
+  width: 50px;
+}
+.herosektion {
+  display: flex;
+  align-items: center; /* Vertikal centrering */
+  justify-content: center; /* Horisontal centrering */
+}
+/* footer */
+.footer_indhold {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 30px;
+}
+.left {
+  justify-self: start;
+  height: 40px;
+}
+.center img {
+  height: 30px;
+  justify-self: center;
+}
+.right {
+  justify-self: end;
+}
 @media (min-width: 800px) {
   .T2,
   .T3,
@@ -106,8 +140,8 @@ p {
   .kontakt_cirkel {
     background-color: rgba(90, 126, 85, 1);
     border-radius: 50%;
-    width: 650px;
-    height: 650px;
+    width: 550px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,5 +159,13 @@ p {
   }
   .T2_billede {
     grid-column: 1/2;
+  }
+  .arrow {
+    margin-left: -10em;
+    position: absolute;
+    top: 12em;
+  }
+  .arrow_img {
+    width: 50px;
   }
 }
