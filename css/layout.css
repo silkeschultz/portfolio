@@ -32,6 +32,16 @@ p {
   height: auto;
   object-fit: contain;
 }
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
 /* cirkel til kontakt */
 .kontakt_cirkel {
@@ -107,16 +117,7 @@ p {
     margin: 0 auto;
     /* display: block; */
   }
-  .grid_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    justify-items: center;
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-  }
+
   .tema_billeder {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -148,6 +149,16 @@ p {
     margin: 0 auto;
     padding: 40px;
     gap: 16px;
+  }
+  .grid_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
   }
   .billeder_forside img {
     width: 700px;
