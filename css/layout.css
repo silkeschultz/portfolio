@@ -71,10 +71,23 @@ p {
 .arrow_img {
   width: 50px;
 }
-.herosektion {
-  display: flex;
-  align-items: center; /* Vertikal centrering */
-  justify-content: center; /* Horisontal centrering */
+/* herosektion */
+dotlottie-player {
+  align-items: center;
+  width: 100%;
+  max-width: 1050px;
+  height: 10500px;
+  margin: 0 auto;
+}
+.hero_p {
+  text-align: center;
+  font-weight: bold;
+}
+.arrow_down {
+  display: block;
+  margin: -1rem auto 2rem auto; /* centrerer og justerer afstand */
+  width: 30px; /* lille pil – justér fx til 20px hvis ønsket */
+  height: auto; /* bevarer proportioner */
 }
 /* footer */
 .footer_indhold {
