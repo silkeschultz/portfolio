@@ -104,4 +104,28 @@ li {
   .projekter_h1 {
     font-size: 50px;
   }
+  a.forside {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5em;
+    border: 2px solid rgba(90, 126, 85, 1);
+    color: rgba(90, 126, 85, 1);
+    text-decoration: none;
+  }
+  a.kontakt_border {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5em;
+    border: 2px solid rgba(90, 126, 85, 1);
+    color: rgba(90, 126, 85, 1);
+    text-decoration: none;
+  }
+  a.om_mig_border {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5em;
+    border: 2px solid rgba(90, 126, 85, 1);
+    color: rgba(90, 126, 85, 1);
+    text-decoration: none;
+  }
 }
