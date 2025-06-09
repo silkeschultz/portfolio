@@ -1,3 +1,4 @@
+/* centrer indhold */
 .T2,
 .T3,
 .T4,
@@ -75,8 +76,8 @@ p {
 dotlottie-player {
   align-items: center;
   width: 100%;
-  max-width: 1050px;
-  height: 10500px;
+  max-width: 1060px;
+  height: 1060px;
   margin: 0 auto;
 }
 .hero_p {
@@ -85,9 +86,9 @@ dotlottie-player {
 }
 .arrow_down {
   display: block;
-  margin: -1rem auto 2rem auto; /* centrerer og justerer afstand */
-  width: 30px; /* lille pil – justér fx til 20px hvis ønsket */
-  height: auto; /* bevarer proportioner */
+  margin: -1rem auto 2rem auto;
+  width: 70px;
+  height: auto;
 }
 /* footer */
 .footer_indhold {
@@ -128,7 +129,6 @@ dotlottie-player {
     width: 800px;
     height: 700px;
     margin: 0 auto;
-    /* display: block; */
   }
 
   .tema_billeder {
