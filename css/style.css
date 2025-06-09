@@ -33,17 +33,25 @@ li {
   font-family: "Yantramanav";
   font-weight: bold;
 }
+.hjemmeside_link a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5em;
+  border: 2px solid rgba(90, 126, 85, 1);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 .mine_projekter,
 .om_mig_billede,
 .tema_billeder {
   background-color: rgba(90, 126, 85, 1);
 }
-.projekter_h1,
+#projekter_h1,
 .kontakt_cirkel {
   color: rgba(242, 240, 233, 1);
   text-align: center;
 }
-.projekter_h1 {
+#projekter_h1 {
   font-size: 30px;
 }
 
@@ -101,10 +109,10 @@ li {
 }
 
 @media (min-width: 900px) {
-  .projekter_h1 {
+  #projekter_h1 {
     font-size: 50px;
   }
-  a.forside {
+  a.forside_border {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 5em;
@@ -125,7 +133,7 @@ li {
     padding: 1rem 2rem;
     border-radius: 5em;
     border: 2px solid rgba(90, 126, 85, 1);
-    color: rgba(90, 126, 85, 1);
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
 }
